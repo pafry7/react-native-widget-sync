@@ -1,0 +1,16 @@
+appId: "expo.modules.widgetsync.example"
+---
+- longPressOn: "react-native-widget-sync-example"
+- tapOn: "Widżety"
+- longPressOn:
+    id: "com.google.android.apps.nexuslauncher:id/widget_preview"
+- launchApp: "expo.modules.widgetsync.example"
+- tapOn: "Set value"
+- pressKey: "Home"
+- assertVisible: "Hello from App.tsx"
+- launchApp: "expo.modules.widgetsync.example"
+- tapOn: "Clear"
+- pressKey: "Home"
+- assertNotVisible: "Hello from App.tsx"
+
+

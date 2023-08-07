@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-widget-sync": ["../src/index"],
+      "react-native-widget-sync/*": ["../src/*"]
+    }
+  }
+}

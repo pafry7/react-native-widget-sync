@@ -1,0 +1,42 @@
+{
+  "name": "react-native-widget-sync",
+  "version": "0.1.0",
+  "description": "The module allows refreshing and sharing of data between the main application and the widget.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "expo-module clean plugin",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android",
+    "build:plugin": "yarn clean && EXPO_NONINTERACTIVE=1 expo-module build plugin && ./plugin/src/scripts/copy.sh",
+    "prepare": "yarn build:plugin"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "widget",
+    "react-native-widget-sync",
+    "ReactNativeWidgetSync"
+  ],
+  "repository": "https://github.com/pafry7/react-native-widget-sync",
+  "bugs": {
+    "url": "https://github.com/pafry7/react-native-widget-sync/issues"
+  },
+  "author": "Patryk Fryda <patryk@alergeek.ventures> ()",
+  "license": "MIT",
+  "homepage": "https://github.com/pafry7/react-native-widget-sync#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.0.11",
+    "expo-modules-core": "^1.5.7"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

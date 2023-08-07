@@ -1,0 +1,17 @@
+appId: "expo.modules.widgetsync.example"
+---
+- longPressOn:
+    id: "Home screen icons"
+- tapOn: "Add Widget"
+- tapOn: "Search Widgets"
+- inputText: "react-native"
+- tapOn: "react-native-widget-sync-example"
+- tapOn: " Add Widget"
+- launchApp: "expo.modules.widgetsync.example"
+- tapOn: "Set value"
+- pressKey: "Home"
+- assertVisible: "Hello from App.tsx"
+- launchApp: "expo.modules.widgetsync.example"
+- tapOn: "Clear"
+- pressKey: "Home"
+- assertNotVisible: "Hello from App.tsx"

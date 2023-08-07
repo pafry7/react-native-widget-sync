@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "react-native-widget-sync-example",
+    "slug": "react-native-widget-sync-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.widgetsync.example",
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.expo.modules.widgetsync.example"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "expo.modules.widgetsync.example"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "../app.plugin.js",
+        {
+          "widgetName": "widget",
+          "ios": {
+            "devTeamId": "",
+            "appGroupIdentifier": "group.expo.modules.widgetsync.example"
+          }
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ReactNativeWidgetSyncModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.widgetsync.ReactNativeWidgetSyncModule"]
+  }
+}
