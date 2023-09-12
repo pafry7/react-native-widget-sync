@@ -65,7 +65,8 @@ When you run expo prebuild for the first time, it generates a folder containing 
 
 ## Video
 
-https://github.com/pafry7/react-native-widget-sync/assets/41058200/416b4610-5d8d-40b5-88b2-786c09f5c37a
+https://github.com/pafry7/react-native-widget-sync/assets/41058200/f0dcf601-31a3-4ead-9eaf-0ae8a67346c6
+
 
 ## Sources
 - https://github.com/gaishimo/eas-widget-example
