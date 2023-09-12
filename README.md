@@ -1,4 +1,4 @@
-> It was supposed to be the npm module - work is postponed.
+> The development of the npm module has been temporarily postponed.
 
 # react-native-widget-sync
 
@@ -21,7 +21,7 @@ cd example
 yarn
 ```
 
-2. Configure expo plugin
+2. Configure expo plugin in `/example`
    Add in `app.json`
 
 ```
@@ -45,7 +45,7 @@ yarn
  }
 
 ```
-## Running
+## Running the example
 
 Run 
 
@@ -61,7 +61,13 @@ npx expo run:[ios|android]
 
 ## How does it work
 
-Running `expo prebuild` for the first time, creates a folder containing widgets' source files and copies them to the `ios` and `android` folders. You have to run `prebuild` every time you change widget's source files.
+When you run expo prebuild for the first time, it generates a folder containing the source files for widgets and then copies them to both the ios and android directories. Remember to run prebuild each time you make changes to the widget's source files.
 
 ## Video
-<video src="./demo.mov" width=180/>
+
+https://github.com/pafry7/react-native-widget-sync/assets/41058200/416b4610-5d8d-40b5-88b2-786c09f5c37a
+
+## Sources
+- https://github.com/gaishimo/eas-widget-example
+- https://github.com/matallui/demo-screen-capture
+
