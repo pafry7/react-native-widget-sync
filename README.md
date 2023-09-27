@@ -4,6 +4,9 @@
 
 The module allows refreshing and sharing of data between the main application and the widget.
 
+## Usage in expo managed project
+
+See https://github.com/pafry7/widget-expo-example
 
 ## Setup
 
