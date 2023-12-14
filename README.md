@@ -15,7 +15,7 @@ See https://github.com/pafry7/widget-expo-example
 git clone git@github.com:pafry7/react-native-widget-sync.git
 ```
 
-1. Install dependencies
+2. Install dependencies
 
 ```
 cd react-native-widget-sync 
@@ -24,7 +24,7 @@ cd example
 yarn
 ```
 
-2. Configure expo plugin in `/example`
+3. Configure expo plugin in `/example`
    Add in `app.json`
 
 ```
